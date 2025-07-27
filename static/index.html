@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Decision Helper</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Decision Helper</h1>
+    <p>Choose a category, then let the app decide for you.</p>
+  </header>
+
+  <main>
+    <!-- Main menu -->
+    <div id="main-menu" class="container">
+      <div class="card clickable" data-category="colors">Color Picker</div>
+      <div class="card clickable" data-category="food">Food Picker</div>
+    </div>
+
+    <!-- Picker box, hidden initially -->
+    <div id="picker-box" class="container hidden">
+      <div id="click-box" class="card clickable">Click me to get your choice</div>
+      <div id="result" class="result-text"></div>
+      <button id="back-btn">Back to menu</button>
+    </div>
+  </main>
+
+  <footer>
+    Crafted with care by Uğur Baştuğ
+  </footer>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

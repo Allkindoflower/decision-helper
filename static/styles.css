@@ -1,0 +1,83 @@
+/* Basic resets & body styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #a3c4f3, #d0e4fc);
+  color: #2c3e50;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header, footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(255 255 255 / 0.8);
+  backdrop-filter: saturate(180%) blur(10px);
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Containers */
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Cards */
+.card {
+  background: linear-gradient(145deg, #74a3d9, #a3bde7);
+  border: 3px solid #5081c0;
+  border-radius: 12px;
+  padding: 40px 60px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(80, 129, 192, 0.3);
+  max-width: 300px;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.card:hover {
+  border-color: #729fd1;
+}
+
+/* Result text */
+.result-text {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  min-height: 1.5em;
+}
+
+/* Hide */
+.hidden {
+  display: none;
+}
+
+/* Back button */
+#back-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #5081c0;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+#back-btn:hover {
+  background: #3d62a1;
+}
