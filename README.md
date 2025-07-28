@@ -2,6 +2,11 @@
 
 Simple app to help you decide what color to wear or what food to eat.
 
+##Why it exists
+I often get paralyzed by everyday choices. I built this app to relieve that 
+decision fatigue—for myself and for anyone else who might find it useful.
+
+
 ## How to run
 
 1. Clone repo  
